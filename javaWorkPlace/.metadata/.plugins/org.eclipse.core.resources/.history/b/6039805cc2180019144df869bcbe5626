@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package chapter01;
+
+/*
+*@Author:小龙人
+*@File Name:HelloWorld.java
+*@Created Time:下午8:36:09
+*@Introduce Function:TODO
+*/
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}

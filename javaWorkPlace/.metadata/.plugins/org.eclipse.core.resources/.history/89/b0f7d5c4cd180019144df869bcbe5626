@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package xlr.chapter02.section04;
+
+/*
+*@Author:小龙人
+*@File Name:Test.java
+*@Created Time:下午9:41:39
+*@Introduce Function:TODO
+*/
+public class Test {
+	public static void main(String[] args) {
+		int n = 0;
+		
+		while(n++ <= 2) ;
+		
+		System.out.println("最后结果"+n);
+		
+		
+	}
+}

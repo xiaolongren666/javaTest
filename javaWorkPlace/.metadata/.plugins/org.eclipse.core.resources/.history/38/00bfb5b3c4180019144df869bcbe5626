@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package xlr.chapter02.section03;
+
+/*
+*@Author:小龙人
+*@File Name:CharTest.java
+*@Created Time:下午8:53:04
+*@Introduce Function:TODO
+*/
+public class CharTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("Hello \n World!");
+	}
+
+}

@@ -18,10 +18,17 @@
 		</list>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="D:\javaTest\.git">
+			<item value="false"/>
+			<item value="xiaolongren666 &lt;1315516121@qq.com&gt;"/>
+			<item value="2018/12/20javaweb 课程设计"/>
+			<item value="xiaolongren666 &lt;1315516121@qq.com&gt;"/>
+			<item value="d585daa0e7be94bb8ef0c6bfea125c030a9a0884"/>
+		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
 		<item value="false" key="sortItemState"/>
-		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>
 </section>

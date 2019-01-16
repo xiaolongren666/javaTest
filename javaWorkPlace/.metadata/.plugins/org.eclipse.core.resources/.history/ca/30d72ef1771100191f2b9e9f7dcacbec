@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package ink.xlr;
+
+/*
+*@Author:小龙人
+*@File Name:Test11.java
+*@Created Time:下午1:56:49
+*@Introduce Function:TODO
+*/
+public class Test11 {
+	private final char[] xlr = {'x', 'l', 'r'};
+}
