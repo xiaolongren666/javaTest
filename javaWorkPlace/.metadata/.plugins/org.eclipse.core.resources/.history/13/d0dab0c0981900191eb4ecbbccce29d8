@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package xlr.chapter02.section06;
+
+/*
+*@Author:小龙人
+*@File Name:ArrayDemo2.java
+*@Created Time:下午10:11:24
+*@Introduce Function:二维数组
+*/
+public class ArrayDemo2 {
+	int[][] a = {{1, 2}, {2, 3, 4}, {2, 3, 4, 5}};
+}

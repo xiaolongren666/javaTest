@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package xlr.chapter02.section06;
+
+/*
+*@Author:小龙人
+*@File Name:ArrayDemo.java
+*@Created Time:下午10:04:39
+*@Introduce Function:数组
+*/
+public class ArrayDemo {
+	public static void main(String[] args) {
+		int a = 10;
+		int[] b = new int[10];
+		
+	}
+}
