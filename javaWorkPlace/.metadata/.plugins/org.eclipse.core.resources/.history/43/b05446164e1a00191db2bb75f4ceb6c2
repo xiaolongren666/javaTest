@@ -10,7 +10,6 @@ package xlr.chapter02.section06;
 *@Introduce Function:数组
 */
 public class ArrayDemo {
-	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int a = 10;
 		
