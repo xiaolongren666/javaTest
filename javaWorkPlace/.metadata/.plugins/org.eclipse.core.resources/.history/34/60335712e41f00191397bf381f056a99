@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package xlr.chapter03.section04;
+
+/*
+*@Author:小龙人
+*@File Name:Test.java
+*@Created Time:下午9:11:09
+*@Introduce Function:修饰符测试类
+*/
+public class Test {
+	public static void main(String[] args) {
+		int sum = 0;
+		int i = 0;
+		for (; i <= 100; ) {
+			sum += i;
+			i++;
+		}
+		System.out.println(sum);
+	}
+}
