@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package xlr.chapter03.task;
+
+import java.util.Random;
+
+/**
+*@Author:小龙人
+*@File Name:PointDemo.java
+*@Created Time:下午10:31:32
+*@Introduce Function:TODO
+*/
+public class PointDemo {
+	/**
+	 * 入口函数
+	 */
+	public static void main(String[] args) {
+		Point point1 = new Point(new Random().nextInt(20), new Random().nextInt(20))
+	}
+}

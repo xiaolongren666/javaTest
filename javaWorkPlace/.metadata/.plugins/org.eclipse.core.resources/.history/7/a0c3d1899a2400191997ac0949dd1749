@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package xlr.chapter03.task;
+
+/**
+*@Author:小龙人
+*@File Name:Book.java
+*@Created Time:下午10:20:36
+*@Introduce Function:TODO
+*/
+public class Book {
+	/** 名称 */
+	private String name;
+	/** 页数 */
+	private int pages;
+	
+	/**
+	 * 无参构造方法
+	 */
+	public Book() {
+	}
+
+	/**
+	 * 输出
+	 */
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", pages=" + pages + "]";
+	}
+	
+	
+	
+}
