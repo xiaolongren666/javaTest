@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package xlr.chapter04.section05;
+
+import java.util.Scanner;
+
+/**
+*@Author:小龙人
+*@File Name:ScannerDemo.java
+*@Created Time:下午7:48:13
+*@Introduce Function:TODO
+*/
+public class ScannerDemo {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入一段文字:");
+		String s1 = sc.next();
+		System.out.println("刚才输入的文字是：" + s1);
+		
+		System.out.println("请输入一个整数：");
+		int i = sc.nextInt();
+	}
+	
+
+
+}

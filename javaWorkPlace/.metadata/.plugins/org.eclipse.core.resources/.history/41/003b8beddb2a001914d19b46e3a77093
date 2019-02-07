@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package xlr.chapter05.section01;
+
+/**
+*@Author:小龙人
+*@File Name:Printer.java
+*@Created Time:下午9:18:58
+*@Introduce Function:TODO
+*/
+public class Printer {
+	/** 颜色 */
+	private String sColor;
+	/** 纸张大小 */
+	private String sApaperSize;
+	public String getsType() {
+		return sType;
+	}
+	public void setsType(String sType) {
+		this.sType = sType;
+	}
+	public String getsManufacture() {
+		return sManufacture;
+	}
+	public void setsManufacture(String sManufacture) {
+		this.sManufacture = sManufacture;
+	}
+	public double getdPrice() {
+		return dPrice;
+	}
+	public void setdPrice(double dPrice) {
+		this.dPrice = dPrice;
+	}
+	public String getsColor() {
+		return sColor;
+	}
+	public void setsColor(String sColor) {
+		this.sColor = sColor;
+	}
+	public String getsApaperSize() {
+		return sApaperSize;
+	}
+	public void setsApaperSize(String sApaperSize) {
+		this.sApaperSize = sApaperSize;
+	}
+	
+	
+}

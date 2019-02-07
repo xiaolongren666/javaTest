@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package xlr.chapter05.section01;
+
+/**
+*@Author:小龙人
+*@File Name:Printer.java
+*@Created Time:下午9:18:58
+*@Introduce Function:TODO
+*/
+public class Printer {
+	private String sType;
+	private String sManufacture;
+	private double dPrice;
+}
