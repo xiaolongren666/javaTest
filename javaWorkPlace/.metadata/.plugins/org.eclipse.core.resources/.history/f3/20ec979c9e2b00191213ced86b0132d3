@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package xlr.chapter05.section03;
+
+/**
+*@Author:小龙人
+*@File Name:StaticInnerClass.java
+*@Created Time:2019年2月8日下午8:38:18
+*@Introduce Function:静态内部类
+*/
+public class StaticInnerClass {
+	private int prop1 = 5;
+	private static int prop2 = 9;
+	
+	static class StaticInnerClass {
+		// 静态成员
+	}
+}

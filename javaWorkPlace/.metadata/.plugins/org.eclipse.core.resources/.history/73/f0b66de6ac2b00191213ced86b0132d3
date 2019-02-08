@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package xlr.chapter05.task;
+
+/**
+*@Author:小龙人
+*@File Name:Apple.java
+*@Created Time:2019年2月8日下午10:17:57
+*@Introduce Function:TODO
+*/
+public class Apple extends Fruit {
+
+	/**
+	 * @param weight
+	 * @param color
+	 */
+	public Apple(int weight, String color) {
+		super(weight, color);
+	}
+	
+	public void display() {
+		System.out.println("苹果：重量：" + super.weight);
+	}
+	
+	
+}

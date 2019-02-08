@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package xlr.chapter05.section03;
+
+/**
+*@Author:小龙人
+*@File Name:LocalInnerClass.java
+*@Created Time:2019年2月8日下午8:31:08
+*@Introduce Function:局部内部类
+*/
+public class LocalInnerClass {
+	public static void main(String[] args) {
+		// 定义局部内部类
+	}
+}

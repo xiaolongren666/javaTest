@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package xlr.chapter05.section04;
+
+/**
+*@Author:小龙人
+*@File Name:Singleton.java
+*@Created Time:2019年2月8日下午8:46:49
+*@Introduce Function:TODO
+*/
+class Singleton {
+	private static Singleton instance = null;
+	
+	private Singleton() {
+	}
+	
+	public static Singleton getInstance() {
+		// 第一次使用时生成实例，提高效率
+		if (instance == null) {
+			instance = new Singleton();
+		}
+	}
+	
+}
+
+public class SingletonDemo {
+	
+}

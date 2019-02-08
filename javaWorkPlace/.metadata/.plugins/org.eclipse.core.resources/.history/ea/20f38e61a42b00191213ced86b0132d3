@@ -1,0 +1,105 @@
+/**
+ * 
+ */
+package xlr.chapter05.task;
+
+/**
+*@Author:小龙人
+*@File Name:Task2.java
+*@Created Time:2019年2月8日下午9:05:02
+*@Introduce Function:
+*/
+
+class Fruit {
+	/** 重量 */
+	private int weight;
+	/** 颜色 */
+	private String color;
+	
+	/**
+	 * 
+	 */
+	public Fruit() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	/**
+	 * @param weight
+	 * @param color
+	 */
+	public Fruit(int weight, String color) {
+		super();
+		this.weight = weight;
+		this.color = color;
+	}
+
+	public String display() {
+		return "重量:" + weight + ",颜色:" + color;
+	}
+	
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+
+		this.color = color;
+	}
+}
+
+class Apple extends Fruit {
+	public Apple(int weight, String color) {
+		super(weigth, color);
+	}
+	
+	@Override
+	public String display() {
+		return "苹果:" + super.display();
+	}
+}
+
+class Orange extends Fruit {
+	@Override
+	public String display() {
+		return "桔子:" + super.display();
+	}
+}
+
+class Pear extends Fruit {
+	@Override
+	public String display() {
+		return "梨" + super.display();
+	}
+}
+
+class Box {
+	private Fruit fruit = null;
+	
+	public void addFruit(Fruit fruit) {
+		this.fruit = fruit;
+		System.out.println("添加水果");
+	}
+	
+	public void getFruit() {
+		this.fruit = null;
+		System.out.println("取出水果");
+	}
+	
+	public String display() {
+		return  fruit.display();
+	}
+}
+
+public class Task2 {
+	public static void main(String[] args) {
+		Fruit apple = new Apple();
+	}
+}
