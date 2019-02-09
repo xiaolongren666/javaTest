@@ -6,3 +6,7 @@
 1549629584376	Rename type 'StaticInnerClass'
 1549630171125	Rename type 'Singleton'
 1549632318231	Delete element
+1549694853463	Rename compilation unit 'Animal.java'
+1549709309162	Move compilation unit
+1549709390498	Move compilation unit
+1549709421762	Rename type 'Task1'

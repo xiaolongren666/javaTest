@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package xlr.chapter06.section02;
+
+/**
+*@Author:小龙人
+*@File Name:Factory.java
+*@Created Time:2019年2月9日下午6:21:28
+*@Introduce Function:TODO
+*/
+public class Factory {
+	public static Product getProduct(String name) {
+		Product p = null;
+	}
+}

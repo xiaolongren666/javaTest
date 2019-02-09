@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package xlr.chapter06.section02;
+
+/**
+*@Author:小龙人
+*@File Name:MyInterface.java
+*@Created Time:2019年2月9日下午4:31:11
+*@Introduce Function:TODO
+*/
+public interface MyInterface {
+	// 接口里定义的成员变量只能是常量
+	int MAX_VALUE = 50;
+	
+	// 接口里定义的普通方法只能是public的抽象方法
+	void delMsg();
+	
+	void addMsg(String msg);
+	
+}
