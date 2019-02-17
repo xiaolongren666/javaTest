@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package xlr.chapter07.task.task1;
+
+/**
+*@Author:小龙人
+*@File Name:ExceptionDemo.java
+*@Created Time:2019年2月17日下午2:34:47
+*@Introduce Function:从键盘接收两个数，计算两个数的加、减、乘、除四种算术运算，要求
+*					使用异常处理语句，处理可能出现的异常情况
+*/
+public class ExceptionDemo {
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package xlr.chapter07.section01;
+
+/**
+*@Author:小龙人
+*@File Name:ExceptionDemo.java
+*@Created Time:2019年2月17日下午1:45:15
+*@Introduce Function:try..catch演示
+*/
+public class ExceptionDemo {
+	/**
+	 * 
+	 */
+	private void division() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	/**
+	 * 程序入口
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package xlr.chapter07.section04;
+
+/**
+*@Author:小龙人
+*@File Name:MyException.java
+*@Created Time:2019年2月17日下午2:24:03
+*@Introduce Function:自定义异常演示
+*/
+public class MyException {
+	
+	/**
+	 * 程序入口
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

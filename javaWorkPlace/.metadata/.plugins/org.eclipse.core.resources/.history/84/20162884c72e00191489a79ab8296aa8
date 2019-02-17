@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package xlr.chapter06.task.task2;
+
+/**
+*@Author:小龙人
+*@File Name:Test1.java
+*@Created Time:2019年2月12日下午8:43:09
+*@Introduce Function:TODO
+*/
+public class Test1 {
+public static void main (String [] args)
+//1,设置断点break point
+//2.开启调试/单式调试
+//3.观察变量的变化
+double item =1;
+double sum = 0;
+while (item  =0){//死循环
+	sum += item;
+	item -=0.1;
+	System.out.println(item);
+}
+			
+}
