@@ -36,7 +36,7 @@ public class Generic<T> {
 		g1.showDataType();
 		
 		Generic<Double> g2 = new Generic<Double>(10.2);
-		g.showDataType();
+		g2.showDataType();
 				
 	}
 }

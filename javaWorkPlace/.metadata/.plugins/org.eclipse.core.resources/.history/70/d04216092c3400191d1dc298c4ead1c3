@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package xlr.chapter08.section03;
+
+import java.util.HashMap;
+
+/**
+*@Author:小龙人
+*@File Name:HashMapDemo.java
+*@Created Time:2019年2月19日下午5:48:31
+*@Introduce Function:HashMap案例
+*/
+public class HashMapDemo {
+	public static void main(String[] args) {
+		HashMap<String, String> hm = new HashMap<String, String>();
+		
+		hm.put("a", "zhangsan");
+		hm.put("b", "lisi");
+		hm.put("c", "wangwu");
+		hm.put(null, null);
+		
+		hm.remove("a");
+		
+		System.out.println(hm.get("a"));
+		System.out.println(hm.get("b"));
+		System.out.println(hm.get("c"));
+		System.out.println(hm.get(null));
+	}
+}

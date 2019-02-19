@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package xlr.chapter08.section05;
+
+/**
+*@Author:小龙人
+*@File Name:Person.java
+*@Created Time:2019年2月19日下午6:33:25
+*@Introduce Function:Person
+*/
+public class Person implements Comparable<Person> {
+	/** 姓名 */
+	private String name;
+	/** 年龄 */
+	private int age;
+	/** 地址 */
+	private String address;
+	
+	/** 默认构造方法 */
+}

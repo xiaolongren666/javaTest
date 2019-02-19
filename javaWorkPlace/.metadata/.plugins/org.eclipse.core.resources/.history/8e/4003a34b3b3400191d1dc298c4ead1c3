@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package xlr.chapter08.task.task2;
+
+/**
+*@Author:小龙人
+*@File Name:Book.java
+*@Created Time:2019年2月19日下午7:39:56
+*@Introduce Function:TODO
+*/
+public class Book implements Comparable<Book>{
+	/** 书名 */
+	private String name;
+	/** 价格 */
+	private int price;
+	
+	
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package xlr.chapter08.section05;
+
+import java.util.ArrayList;
+
+/**
+*@Author:小龙人
+*@File Name:CollectionsDemo.java
+*@Created Time:2019年2月19日下午6:42:32
+*@Introduce Function:Collections工具类的使用
+*/
+public class CollectionsDemo {
+	public static void main(String[] args) {
+		ArrayList<Person> list = new ArrayList<Person>();
+		
+	}
+}

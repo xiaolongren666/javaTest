@@ -20,6 +20,8 @@ public class ArrayListDemo {
 		list.add("上海");
 		list.add("青岛");
 		
+		
+		
 		System.out.println("--------foreach-------");
 		for (String string : list) {
 			System.out.println(string);
