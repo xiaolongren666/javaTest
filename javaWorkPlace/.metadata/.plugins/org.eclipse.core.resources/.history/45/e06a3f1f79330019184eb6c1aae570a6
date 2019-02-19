@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package xlr.chapter08.section03;
+
+/**
+*@Author:小龙人
+*@File Name:HashSetDemo.java
+*@Created Time:2019年2月18日下午8:31:02
+*@Introduce Function:HashSet案例
+*/
+public class HashSetDemo {
+	public static void main(String[] args) {
+		
+	}
+}

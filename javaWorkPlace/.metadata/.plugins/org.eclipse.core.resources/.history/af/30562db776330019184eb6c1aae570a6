@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package xlr.chapter08.section03;
+
+/**
+*@Author:小龙人
+*@File Name:StackDemo.java
+*@Created Time:2019年2月18日下午8:13:55
+*@Introduce Function:Stack模仿栈的输出
+*/
+public class StackDemo {
+
+}
