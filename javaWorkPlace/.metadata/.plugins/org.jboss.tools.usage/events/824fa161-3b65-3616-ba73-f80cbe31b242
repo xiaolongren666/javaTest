@@ -1,0 +1,11 @@
+#Thu Mar 21 07:56:12 CST 2019
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1553126172513
+c=0
+cmp=usage
+a=finishWizard
+cl=org.apache.hadoop.eclipse.actions.NewLocationAction$1
+v=2.2.102
+s=0

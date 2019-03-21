@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package ink.xlr.test;
+
+/**
+*@Author:小龙人
+*@File Name:Serve.java
+*@Created Time:2019年3月21日上午11:36:35
+*@Introduce Function:TODO
+*/
+public interface Serve {
+	public void ArrangeEat();
+}

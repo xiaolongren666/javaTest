@@ -1,0 +1,57 @@
+/**
+ * 
+ */
+package ink.xlr.test;
+
+/**
+ * @Author:小龙人
+ * @File Name:Fruit.java
+ * @Created Time:2019年3月21日上午11:04:38
+ * @Introduce Function:TODO
+ */
+public class Fruit {
+	private String name;
+	private String color;
+	private int weight;
+	private String variety;
+
+	// set get方法
+	public String getColor() {
+		return color;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	// 构造方法
+	public Fruit() {
+	}
+
+	public Fruit(String name, String color, int weight) {
+		this.name = name;
+		this.color = color;
+		this.weight = weight;
+	}
+
+	// 重写
+	public String toString() {
+		return getName() + "  " + getWeight() + "  " + getColor();
+	}
+}

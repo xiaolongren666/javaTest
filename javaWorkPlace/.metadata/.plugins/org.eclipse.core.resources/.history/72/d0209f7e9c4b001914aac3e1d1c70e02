@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package ink.xlr.test;
+
+import java.util.ArrayList;
+import java.util.Set;
+
+/**
+*@Author:小龙人
+*@File Name:WelfareLottery.java
+*@Created Time:2019年3月21日下午1:42:59
+*@Introduce Function:TODO
+*/
+public class WelfareLottery {
+	Set<Integer> list = null;
+	public Set<Integer> GenerateLottery() {
+		return list;
+	}
+}

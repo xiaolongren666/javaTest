@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package ink.xlr.demo;
+
+/**
+*@Author:小龙人
+*@File Name:MinTemperature.java
+*@Created Time:2019年3月4日上午11:32:53
+*@Introduce Function:TODO
+*/
+public class MinTemperature {
+	public static void main(String[] args) throws Exception {
+		if(args.length != 2) {
+			System.out.println("Usage:MinTemperatures<input path> <output path>");
+			System.exit(-1);
+		}
+		
+		Job job = new Job();
+	}
+}

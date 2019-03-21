@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package ink.xlr.test;
+
+/**
+*@Author:小龙人
+*@File Name:Person.java
+*@Created Time:2019年3月21日上午11:39:11
+*@Introduce Function:TODO
+*/
+public class Person {
+	private String name;
+	priavte String eatPlace
+}

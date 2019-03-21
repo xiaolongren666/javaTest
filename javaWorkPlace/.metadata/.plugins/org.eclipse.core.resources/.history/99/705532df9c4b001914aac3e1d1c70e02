@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package ink.xlr.test;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Set;
+
+/**
+*@Author:小龙人
+*@File Name:WelfareLottery.java
+*@Created Time:2019年3月21日下午1:42:59
+*@Introduce Function:TODO
+*/
+public class WelfareLottery {
+	Set<Integer> list = null;
+	
+	/**
+	 * 随机生成五个1-23之间的数
+	 * @return
+	 */
+	public Set<Integer> GenerateLottery() {
+		while(list.size() == 5) {
+			list.add(new Random().nextInt(22)+1);
+		}
+		return list;
+	}
+}
