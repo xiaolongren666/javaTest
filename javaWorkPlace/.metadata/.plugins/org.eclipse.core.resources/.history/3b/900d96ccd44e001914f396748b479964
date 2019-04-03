@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package ink.xlr.avgCombiner;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+/**
+*@Author:小龙人
+*@File Name:AvgWritable.java
+*@Created Time:2019年3月25日下午4:05:25
+*@Introduce Function:TODO
+*/
+public class AvgWritable extends Reducer<Text, Text, Text, Text> {
+
+	public void reduce(Text _key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+		// process values
+		for (Text val : values) {
+
+		}
+	}
+
+}

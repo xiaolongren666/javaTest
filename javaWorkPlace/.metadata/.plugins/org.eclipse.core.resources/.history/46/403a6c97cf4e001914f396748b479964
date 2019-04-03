@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package ink.xlr.map;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+/**
+*@Author:小龙人
+*@File Name:JoinReduce.java
+*@Created Time:2019年3月25日下午3:17:33
+*@Introduce Function:TODO
+*/
+public class JoinReduce extends Reducer<Text, Text, Text, Text> {
+
+	public void reduce(Text _key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+		String order_name = "";
+		String goods_id = "";
+		int oCount = 0;
+		int iCount = 0;
+		// process values
+		for (Text val : values) {
+			// 一  "O_order1,order1_name"
+			// 二  "I_order1,good_id1"
+			// 三  "I_order1,good_id2"
+			String[] str = val.toString().split(",");
+			// 判断数据来源
+			if (str[0].startsWith("O_")) {
+				// 来源于订单表
+				order_name = str[1];
+				oCount ++;
+			} else if (str[0].startsWith("I_")) {
+				goods_id = "," + str[1];
+				iCount ++;
+			}
+		}
+		
+		// 多行输出
+		
+	}
+
+}

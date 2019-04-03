@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package ink.xlr.avg;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+/**
+*@Author:小龙人
+*@File Name:AvgReduce.java
+*@Created Time:2019年3月25日下午3:51:50
+*@Introduce Function:TODO
+*/
+public class AvgReduce extends Reducer<Text, IntWritable, Text, FloatWritable> {
+
+	public void reduce(Text _key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
+		for (IntWritable value : values) {
+			sum += value.get();
+			count ++;
+		}
+	}
+
+}

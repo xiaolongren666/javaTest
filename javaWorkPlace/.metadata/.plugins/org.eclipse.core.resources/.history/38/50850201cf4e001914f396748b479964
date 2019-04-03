@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package ink.xlr.map;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+/**
+*@Author:小龙人
+*@File Name:JoinReduce.java
+*@Created Time:2019年3月25日下午3:17:33
+*@Introduce Function:TODO
+*/
+public class JoinReduce extends Reducer<Text, Text, Text, Text> {
+
+	public void reduce(Text _key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+		// process values
+		for (Text val : values) {
+			// 一  "O_order1,order1_name"
+			// 二  "I_order1,good_id1"
+			// 三  "I_order1,good_id2"
+		} 
+	}
+
+}

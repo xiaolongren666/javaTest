@@ -1,0 +1,34 @@
+¶©µ¥±íO_
+order1    order1_name
+order2    order2_name
+order3    order3_name
+order4    order4_name
+order5    order5_name
+
+¶©µ¥ÏêÏ¸±í
+odrde1_item  order1  good_id1
+odrde2_item  order1  good_id2
+odrde3_item  order2  good_id3
+odrde4_item  order2  good_id4
+odrde5_item  order3  good_id5
+odrde6_item  order4  good_id6
+
+MAp¶Ë£º
+k1,v1 
+order1    order1_name
+odrde1_item  order1  good_id1	
+
+k3,v3
+"order1",{"O_order1,order1_name","I_order1,good_id1","I_order1,good_id2"}
+"O_order1,order1_name"
+"I_order1,good_id1"
+"I_order1,good_id2"
+
+order_name = order1_naem
+goods_id = ",good_id1,good_id2"
+
+k4,v4
+Êä³ö£º
+order1 order_name good_id1
+order1 order_name good_id2
+

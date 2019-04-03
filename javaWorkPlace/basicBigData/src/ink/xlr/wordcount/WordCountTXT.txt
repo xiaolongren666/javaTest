@@ -1,0 +1,18 @@
+i am xlr1
+i am xlr2
+i am xlr3
+i am xlr4
+i am xlr5
+i am xlr6
+
+
+k1 v1
+i am xlr1 
+
+k2 v2
+i 1
+am 1
+xlr1 1
+
+k3 v3
+"i"  "{1,1,1,1,1,1}"

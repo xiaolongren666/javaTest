@@ -1,0 +1,33 @@
+id     name     score
+1      math      97
+1      math      97
+1      english   97
+1      english   97
+1      PE          97
+
+
+
+K1 V1 
+1
+math
+97
+
+k2        v2 
+math    97 
+
+combiner 
+k2 v2 ‰»Î
+math "97,1","97,1"
+
+
+k2 v2  ‰≥ˆ
+math 97+97 2
+
+
+
+
+k3 v3 
+"math" "{97,97,97}"
+
+k4 v4 
+"math"   97

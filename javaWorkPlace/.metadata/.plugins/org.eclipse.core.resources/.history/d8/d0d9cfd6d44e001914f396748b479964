@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package ink.xlr.avgCombiner;
+
+import org.apache.hadoop.io.Writable;
+
+/**
+*@Author:小龙人
+*@File Name:AvgWritable.java
+*@Created Time:2019年3月25日下午4:05:25
+*@Introduce Function:TODO
+*/
+public class AvgWritable implements Writable {
+
+}

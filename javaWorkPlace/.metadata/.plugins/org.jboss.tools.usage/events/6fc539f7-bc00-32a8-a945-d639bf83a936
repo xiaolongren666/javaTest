@@ -1,11 +1,11 @@
-#Thu Mar 21 08:40:55 CST 2019
+#Thu Mar 28 16:20:58 CST 2019
 vl=How many times the 'Finish' button pressed during the day
 l=Wizard class name
 ct=jbt
-d=1553128855127
+d=1553761258743
 c=0
 cmp=usage
 a=finishWizard
 cl=org.apache.hadoop.eclipse.NewDriverWizard
 v=2.2.102
-s=2
+s=0
